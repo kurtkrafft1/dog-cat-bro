@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.board-container {
+    width: 60%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5%;
+    background-color: #43291F;
+    border-radius: 5%;
+    padding-left:7% ;
+}
+.space {
+    background-color: #F4F0BB;
+    opacity: 0.9;
+    width: 30%;
+    height: 30%;
+    margin: 0%;
+    bottom: 0;
+    margin-right: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
